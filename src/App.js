@@ -1,23 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import ExpenseForm from './component/basics/ExpensesForm';
+import { FormExample } from './component/regex-validation-example/FormExample';
+import { ValidationSchemaExample } from './component/validation-by-yup/ValidationSchemaExample';
+import { Formeg } from './component/Manually trigger/Formeg';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <ExpenseForm></ExpenseForm> */}
+      {/* <FormExample></FormExample> */}
+      {/* <ValidationSchemaExample></ValidationSchemaExample> */}
+      <Formeg></Formeg>
     </div>
   );
 }

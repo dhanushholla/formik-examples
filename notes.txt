@@ -1,0 +1,4 @@
+Formik is third party React form library.
+It provides basic form programming and validation. 
+It is based on controlled component and greatly reduces the time to do form programming.
+npm install formik --save
